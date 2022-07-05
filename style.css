@@ -1,0 +1,58 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    background-color: #5E85F0;
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100px;
+    transition-duration: 0.6s;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: violet;
+}
+
+#caixa {
+    border-color: transparent;
+}
+
+#caixao {
+    width: 300px; 
+    align-items: center; 
+    border-radius:5%;
+    border-color: transparent;
+    margin-top: 5%;
+}
+
+#eu {
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #B137E0;
+    background-color: #B231F7;
+}
+
+body {
+    background-image: url(Imagens/backgroundimage.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
